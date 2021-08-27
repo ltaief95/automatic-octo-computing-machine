@@ -1,0 +1,166 @@
+ html, body { margin: 0px; padding: 0px; border: 0px;  background-color:#E0E0E0; font-family: Tahoma; font-size: 16px; vertical-align: baseline;}
+ img{border-width:0px;}/*fix IE border*/
+
+ /*about*/
+  html.about{
+  background-color:white; 
+  }
+ body.about{
+
+width:500px;
+	background-color: white;
+	background-image:url('images/skelion1.jpg');
+	background-repeat:no-repeat;
+	/*background-position:left top;*/
+	/*background-attachment:fixed;*/
+	font:14px arial;
+	text-align:center;
+}
+
+ 
+ #container 
+ { 	 
+	 width: 1000px; 
+	 margin: 15px auto; /*Not 15 px*/
+	 /* top right bottom left */ 
+	 padding: 0;
+	/* position: relative;*/
+}
+
+/*DATAVASE HTML */
+
+
+
+/*SETTINGS HTML */
+.cols{ background-color: white;}
+.col1 {float:left; width:185px;background-color: white; padding-left:15px;}/*1px for border 15 for padding*/
+.col2 {float:left; width:768px;background-color: white; padding-left:30px; border-left:2px solid grey;}
+.cleardiv { clear:both; }
+.setbut { font: 14px arial, sans-serif; }
+.setbut:hover {cursor: pointer; text-decoration:underline; color:grey;}
+.c2_nod {display:none;}
+.ull  li {margin-top: 15px;}
+
+/*SETTINGS HTML CONVENTION*/
+.sc_1 {float:left; width:265px;}
+.sc_2 {float:left; width:240px; padding-left:25px;}
+
+
+
+
+ #container #mytitle  { margin: 0; padding: 0 0 0 15px; width: 985px; float: left; background-color: #FFFFFF;}
+  h1 { color: #FF9500; font-size: 20px; font-weight:bold; background-color: #FFFFFF; }
+	  
+	  
+  /* ################################*/
+  /* ################################*/
+   /* ################################*/
+    /* ################################*/
+	 /* ################################*/
+/* ################################*/
+	  /* ################################*/
+  
+#house  { margin: 0; padding: 0 0 0 15px; width: 985px; float: left; background-color: #FFFFFF;}
+#house img { float: right; width: 150px; }
+#one_column { margin:0; padding: 0 15px 0 15px; float: left; width: 970px;  background-color: #FFFFFF; }
+#but_continue { float: left; text-align: center; width: 100%; } 
+
+#lat_long {margin: 0; padding: 0 0 0 15px; width: 985px; float: left; background-color: #FFFFFF;}   
+
+
+
+.anote { font-size: 10pt;}
+.anote li {margin-top: auto;}
+
+
+ /*##############1angles.rb############*/
+
+#sigma  { font-size:1.5em; font-family:"Times New Roman", Times, serif;}
+#ang_table { font-size: 0.95em;  } 
+#conventioninfo { color: grey; font-size: 12px; margin-left:30px }
+#conventioninfo:hover { cursor:pointer; color: black; text-decoration:underline;  }
+
+
+ /*##############3pitch.rb############*/
+#pi_t1_titles { text-decoration:underline; text-align: center; }
+/*.col3  { text-align: center; width: 100px; }*/
+
+
+ /* ######2panelsize.rb##########################*/
+ #css1 { float:left; }
+ #css3 { margin:0 0 0 15px; }
+/*convention#######################*/
+ #c_css1 {vertical-align:top; }
+ 
+ 
+ /*multiplefaces angles*/
+ /*#mult_css1 td { padding: 0 0 0 45px; }*/
+ /*multiplefaces pitch*/
+ /*#mp_css1 { text-align: center; }*/
+ 
+  /*##############4shadows.rb############*/
+#sh_t1 #sh_t1_titles { text-decoration:underline; text-align: center; }
+#sh_t2 input {  width: 40px; }
+#sh_t2 #uyear {  width: 50px; }
+#sh_t2 #shadows_used { width: 300px; }
+.shinterval  { width:380px; text-align: center; }
+ 
+ /*##########custom_component.html*/
+ 
+ .center { text-align: center; }
+
+
+ /* ################################*/
+  /* ################################*/
+   /* ################################*/
+    /* ################################*/
+	 /* ################################*/
+/* ################################*/
+	  /* ################################*/
+
+	 
+
+.a_but{
+	cursor:pointer;
+	color:white;  font-weight:bold;
+	
+background-color:#4d8ffd;
+background: -webkit-linear-gradient(#4d8ffd, #4787ee); /* For Safari */
+background: -o-linear-gradient(#4d8ffd, #4787ee); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#4d8ffd, #4787ee); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#4d8ffd, #4787ee); /* Standard syntax (must be last) */
+
+border:1px solid #3079ed;
+
+	border-radius:3px;
+	padding: 5px 7px 5px 7px;
+	margin: 5px;
+}
+.a_but:hover {
+background-color:#367be9;
+background: -webkit-linear-gradient(#4c8ffd, #367be9); /* For Safari */
+background: -o-linear-gradient(#4c8ffd, #367be9); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#4c8ffd, #367be9); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#4c8ffd, #367be9); /* Standard syntax (must be last) */
+} 
+
+/*goolge image html*/
+.uarrows {font-size:36px;color:blue;background: rgba(255,255,255,0.7); border: 2px solid #fff;  border-radius:5px;margin:10px;}
+.uarrows table {text-align:center;border-collapse: collapse;  }
+.uarrows td {width:40px; padding:0px; text-align:center;border-collapse: collapse; }
+.uarrows td:hover {font-weight:bold; cursor:pointer;}
+
+
+ 
+
+
+
+
+
+	 
+	  
+	  
+	  
+	  
+	  
+ 
